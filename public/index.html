@@ -13,7 +13,7 @@
     -->
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" type = "image/png" href="VikingScriptLogo.png" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,7 +24,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <script src="script.js" defer></script>
-    <title>React App</title>
+    <title>VikingScript</title>
     <link href="styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,7 +39,7 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <article class="wrapper" />
+    <article class="wrapper" >
     <div id="root"></div>
     <ul class="tabs">
       <li data-tab-target="#home" class="active tab">Home</li>
@@ -79,7 +79,7 @@
         <p>
           Classic hello, world program<br />
           <code>runes</code> are the letters of an ancient Latin alphabet which
-          the Vikings used
+          the Vikings used </p>
           <table>
             <tr>
               <th>JavaScript</th>
@@ -90,12 +90,11 @@
               <td><pre><code>runes("hello, world")</code></pre></td>
             </tr>
           </table>
-        </p>
         <h3>Variable declaration</h3>
         <p>
           <code>kalla</code> means declare in Norse<br />
           No semi-colons<br />
-          No need to specify the type of the variable<br />
+          No need to specify the type of the variable<br /></p>
           <table>
             <tr>
               <th>JavaScript</th>
@@ -106,14 +105,13 @@
               <td><pre><code>kalla x = 5</code></pre></td>
             </tr>
           </table>
-        </p>
         <h3>Return</h3>
         <p><code>hverfa</code> identifier used, meaning "to return" in Norse</p>
         <h3>Function declaration</h3>
         <p>
           <code>valhalla</code> being the majestic heaven in Asgard where all
           Vikings strive to be<br />
-          No return type needed
+          No return type needed</p>
           <table>
               <tr>
                 <th>JavaScript</th>
@@ -130,7 +128,7 @@
 } </code></pre></td>
               </tr>
             </table>
-        </p>
+        
 
         <h3>Comments</h3>
         <p>The comment is based off a Viking helmet</p>
@@ -178,10 +176,10 @@ x lessThan y
 if(x == 5) { 
 console.log(x) 
 }
-else if (x > 10) { 
+else if (x &gt 10) { 
 console.log("greater") 
 }
-else (x < 10) { 
+else (x &lt 10) { 
 console.log("less") 
 }
   </code></pre></td>
@@ -213,8 +211,9 @@ loki </code></pre></td> </table></p>
       </div>
     </div>
     <audio controls autoplay loop id="myaudio">
-        <source src = "viking.mp3" type = "audio/mpeg"
+        <source src = "viking.mp3" type = "audio/mpeg">
     </audio>
+    
     <script src="prism.js"></script>
     
   </body>
